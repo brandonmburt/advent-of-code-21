@@ -21,30 +21,6 @@ export class Wrapper {
         switch (day) {
             case 1:
                 return Puzzles.solvePuzzle1(input);
-            case 2:
-                return Puzzles.solvePuzzle2(input);
-            case 3:
-                return Puzzles.solvePuzzle3(input);
-            case 4:
-                return Puzzles.solvePuzzle4(input);
-            case 5:
-                return Puzzles.solvePuzzle5(input);
-            case 6:
-                return Puzzles.solvePuzzle6(input);
-            case 7:
-                return Puzzles.solvePuzzle7(input);
-            case 8:
-                return Puzzles.solvePuzzle8(input);
-            case 9:
-                return Puzzles.solvePuzzle9(input);
-            case 10:
-                return Puzzles.solvePuzzle10(input);
-            case 11:
-                return Puzzles.solvePuzzle11(input);
-            case 12:
-                return Puzzles.solvePuzzle12(input);
-            case 13:
-                return Puzzles.solvePuzzle13(input);
             default:
                 return [0,0];
         }
